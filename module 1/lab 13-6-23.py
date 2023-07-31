@@ -60,7 +60,7 @@ def main():
     verified = ECDSAVerify(ECDSAPublicKey,transactionDataAsMessageSHA256Hashed,signature)
     print(" ______________________________________________________________________________________")
     print("|")
-    print("|   ECDSA Public Key   : %s"% ECDSAPublicKey.__format__)
+    print("|   ECDSA Public Key   : %s"% ECDSAPublicKey)
     print("|   ECDSA Private Key  : %s"% ECDSAPrivateKey)
     print("|   TransectionDataHash: %s"% transactionDataAsMessageSHA256Hashed)    
     print("|   Signature          : %s"% signature)
