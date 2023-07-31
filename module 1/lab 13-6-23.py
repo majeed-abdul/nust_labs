@@ -12,3 +12,4 @@ def generateInput():
     preTxid=generateTxid()
     prevOutputIndex=random.randint(0,5)
     return preTxid,prevOutputIndex
+
